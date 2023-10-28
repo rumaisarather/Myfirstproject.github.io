@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>collage website </title>
+        <link rel="stylesheet" href="colge.css">
+        <script src="https://kit.fontawesome.com/89f77e38cb.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,600;0,700;1,200;1,400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav> 
+                <a href="index.html"><img src="./images/logo-removebg-preview.png" alt="" style ="height:80px"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/index.html">home</a></li>
+                    <li><a href="http://127.0.0.1:5500/about.html">about</a></li>
+                    <li><a href="http://127.0.0.1:5500/course.html">course</a></li>
+                    <li><a href="http://127.0.0.1:5500/blog.html">blog</a></li>
+                    <li><a href="http://127.0.0.1:5500/contact.html">contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+<h1>Our Courses</h1>
+        </section>
+
+        <section class="course">
+            <h1>courses we offer</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis omnis nesciunt eius vitae tenetur, veniam, amet necessitatibus quis fuga voluptate dignissimos dolor. Aspernatur perspiciatis numquam expedita eius deleniti mollitia laboriosam.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque aliquam, officiis aut sunt cum vero tempora vel impedit, beatae iure reiciendis et alias a, reprehenderit error velit quod quis aperiam.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A, maxime eum explicabo aspernatur recusandae tempora ipsam neque alias veniam unde error sapiente aut esse officia similique ducimus facere temporibus porro.</p>
+            </div>
+            
+                <div class="course-col">
+                    <h3>Degree</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A, maxime eum explicabo aspernatur recusandae tempora ipsam neque alias veniam unde error sapiente aut esse officia similique ducimus facere temporibus porro.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Post- Graduate</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A, maxime eum explicabo aspernatur recusandae tempora ipsam neque alias veniam unde error sapiente aut esse officia similique ducimus facere temporibus porro.</p>
+                </div>
+                    </div>
+        </div>
+        </section>
+
+        <section class="facilities">
+            <h1>Our Facilities</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt quas distinctio adipisci ullam beatae fugit voluptatibus cumque, mollitia expedita quod? Tempore amet sint quod corrupti voluptates voluptas dolor blanditiis ratione.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non suscipit eligendi consequatur ipsam, facilis fugiat adipisci error eos veritatis, enim ipsum eius ut voluptatum tempore ipsa id. Quam, maxime adipisci!</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="./images/pract.jpg" alt="">
+                <h3>World class Lab</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, eaque magni pariatur nemo corrupti ab sequi accusantium quod excepturi modi voluptatibus optio! Excepturi labore officia nobis odio eos aspernatur iste.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="./images/study.jpg" alt="">
+                <h3>World class Library</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, eaque magni pariatur nemo corrupti ab sequi accusantium quod excepturi modi voluptatibus optio! Excepturi labore officia nobis odio eos aspernatur iste.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="./images/sports.webp" alt="">
+                <h3>World class sports</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, eaque magni pariatur nemo corrupti ab sequi accusantium quod excepturi modi voluptatibus optio! Excepturi labore officia nobis odio eos aspernatur iste.</p>
+            </div>
+        </div>
+        </section>
+       
+
+<section class="footer">
+    <h4> About Us</h4>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint ducimus quam dolorum facilis! Vero fuga molestiae doloremque numquam nesciunt explicabo tempora doloribus laborum<br> amet nobis iusto sint, ex accusantium suscipit.</p>
+<div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-linkedin"></i>
+</div>
+</section>
+<script>
+
+    var navLinks= document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right= "0";
+    }
+    function hideMenu(){
+        navLinks.style.right= "-200px";
+    }
+
+</script>
+</body>
+</html>

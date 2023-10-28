@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>collage website </title>
+        <link rel="stylesheet" href="colge.css">
+        <script src="https://kit.fontawesome.com/89f77e38cb.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,600;0,700;1,200;1,400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav> 
+                <a href="index.html"><img src="./images/logo-removebg-preview.png" alt="" style ="height:80px"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/index.html">home</a></li>
+                    <li><a href="http://127.0.0.1:5500/about.html">about</a></li>
+                    <li><a href="http://127.0.0.1:5500/course.html">course</a></li>
+                    <li><a href="http://127.0.0.1:5500/blog.html">blog</a></li>
+                    <li><a href="http://127.0.0.1:5500/contact.html">contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+<h1>About Us</h1>
+        </section>
+<div>
+<h3>Build your future in our institute</h3>
+</div>
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>We are the valleys leading college</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, aliquid quae doloribus, doloremque hic alias, tenetur provident ipsam iure repellendus amet voluptate nemo! Cupiditate cumque incidunt laboriosam magnam sapiente dolorum?</p>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi fugit dolore quod omnis excepturi incidunt molestias pariatur illo eius voluptatum ducimus laboriosam voluptatem exercitationem nisi, nihil consectetur, sapiente quasi esse?</p>
+                    
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit fuga deleniti in alias nesciunt adipisci laboriosam quasi at quibusdam, voluptas id dicta blanditiis exercitationem officiis recusandae ipsam dolor veniam incidunt!</p><a href="" class="hero-btn red-btn">Explore Now</a>
+                </div>
+<div class="about-col">
+    <img src="./images/COMPUTER.jpg" alt="">
+</div>
+            </div>
+        </section>
+
+<section class="footer">
+    <h4> About Us</h4>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint ducimus quam dolorum facilis! Vero fuga molestiae doloremque numquam nesciunt explicabo tempora doloribus laborum<br> amet nobis iusto sint, ex accusantium suscipit.</p>
+<div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-linkedin"></i>
+</div>
+</section>
+<script>
+
+    var navLinks= document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right= "0";
+    }
+    function hideMenu(){
+        navLinks.style.right= "-200px";
+    }
+
+</script>
+</body>
+</html>
