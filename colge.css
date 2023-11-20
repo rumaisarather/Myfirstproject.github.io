@@ -320,7 +320,7 @@ h3{
     padding:10px 2px;
 }
 .about-col img{
-    width:150%;
+    width:130%;
 }
 .about-col h1{
     padding-top: 0;
@@ -397,7 +397,7 @@ h3{
     margin :10px 0;
 
 }
-@media(max-width:700px){
+@media(max-width:600px){
     .sub-header h1{
         font-size: 20px;
     }
