@@ -1,1 +1,2 @@
-# myfirstproject
+# MyFirstproject
+StaticCollegeWebsite 
